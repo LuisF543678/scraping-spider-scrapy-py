@@ -1,0 +1,24 @@
+﻿Archivo:  XPath.txt
+
+
+Guardarlo en Visual Studio Code
+
+
+
+
+
+
+
+
+
+
+Links = //text-fill/a[@class="economiaSect" or @class="empresasSect" or @class="ocioSect" or @class="globoeconomiaSect" or @class="analistas-opinionSect"]/@href
+
+
+Titulo = //div[@class="mb-auto"]/text-fill/span/text()
+
+
+Resumen = //div[@class ="lead"]/p/text()
+
+
+Cuerpo = //div[@class="html-content"]/p[not(@class)]/text()
