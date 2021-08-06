@@ -2,7 +2,8 @@ import scrapy
 
 #   Title = //h1/a/text()
 #   Citas = //span[@class="text" and @Itempro="text"]/text()
-#   Top ten tag = response.xpath('//div/[contains(@class, "tags-box")]//span[@class="tag-item"]/a/text()')getall()
+#   Top_ten_tag = response.xpath('//div/
+    #  [contains(@class,"tags-box")]//span[@class="tag-item"]/a/text()')getall()
 
 
 class QuotesSpider(scrapy.Spider):
@@ -12,6 +13,7 @@ class QuotesSpider(scrapy.Spider):
     def parse(self, response):
         print("*" * 30)
         print("\n\n\n")
+
 
         Title = response.xpath('//h1/a/text()').get()
         print(f'Titulo: {Title}')
