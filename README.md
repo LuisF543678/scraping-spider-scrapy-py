@@ -9,7 +9,10 @@ Download the files, have python installed
 
 
 ```bash
-Download :)
+Download file :)
+
+install scrapy for python
+pip install Scrapy
 ```
 
 
